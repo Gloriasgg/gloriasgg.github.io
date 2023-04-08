@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Petrona:wght@900&display=swap');
+	@import url('https://fonts.googleapis.com/css2? family= Urbanist:ital,wght@0,100;0,700;1,300 & display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+
+header,nav,main,footer{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*   {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+	height: 200px;
+	background-color: chocolate;
+	color: moccasin;
+}
+nav{
+	height: 50px;
+	background-color: indianred;
+}
+h1{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font: 48px;
+    text-align: center;
+}
+body footer h5 {
+    text-align: center;
+
+}
+
+
+main {
+    background-color: rgba(222,142,143,1.00);
+    height: auto;
+}
+footer {
+    background-color: rgba(255,157,116,1.00);
+    height: 30px;
+    text-align: center;
+}
+main section  {
+    background-color: rgba(233,201,202,1.00);
+    margin: 20px auto;
+    padding: 30px;
+    width: 75%;
+    color: rgba(11,0,91,1.00);
+    text-align: center;
+    height: auto;
+}
+main section h2 {
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 20px;
+	font-family: 'Petrona', serif;
+}
+
+main section img{
+    width: 320px;
+    height: auto;
+}#img_1 {
+    width: 320px;
+    height: 240px;
+}
+
+#img_2 {
+    width: 50%;
+    height: 50%;
+}
+#img_4 {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+
+#img_3 {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+main section p {
+    text-align: justify;
+}
+#img_5 {
+    width: 20%;
+    height: auto;
+    float: right;
+
+}
+
+#imf_gif6 {
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+#img_7 {
+    width: 40%;
+    height: auto;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+#img_8 {
+    background-image: url(../IMAGENES/Brackgru%201.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.opacity1 {
+    padding: 10px;
+    background-color: rgba(255,212,213,1.00);
+    opacity: 0.7;
+}
+
+
+.tipo_1 {
+    font-family: Urbanist;
+    font-weight: 700;
+}
+.tipo_2 {
+    font-family: Prompt;
+}
+#fuente_1 {
+    font-family: Tourney;
+    font-size: 54px;
+
+}
+.animate__delay-3s {
+}
+.animate__slower {
+}
+#filtro1 {
+    filter: grayscale(100%);
+}
+#filtro_brillo {
+    filter: brightness(150%);
+}
+#filtro_contraste {
+    filter: contrast(100%);
+}
+#filtro_invert {
+    filter: invert(90%);
+}
+#filtro_sepia {
+    filter: sepia(100%);
+}
+#filtro_saturacion {
+    filter: saturate(50%);
+}
+#filtro_opacidad {
+    filter: opacity(50%);
+}
+#filtro_blur {
+    filter: blur(1.5px);
+}
+
+
+
+
+
+
+
+
+.animate__infinite {
+}
+.animate__repeat-3 {
+}
+.animate__repeat-4 {
+}
+.animate__delay-5s {
+}
+.size_video_1 {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    height: auto;
+}
+footer h5 {
+    margin: auto;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+
+}
+nav ul li {
+    list-style-type: none;
+    width: 60px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 20px;
+    color: rgba(255,227,228,1.00);
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:large;
+}
+ul li a {
+    text-decoration: none;
+    color: rgba(255,233,233,1.00);
+}
+ul li a:hover {
+    color: rgba(255,0,65,1.00);
+    padding: 10px;
+    background-color: rgba(251,208,229,1.00);
+    border-radius: 10px;
+    width: 90px;
+    webkit-box-shadow: 10px 0px 9px rgba(194,194,194,1.00);
+    box-shadow: 10px 0px 9px rgba(194,194,194,1.00);
+}
+
+.img_9 {
+    width: 30%;
+    height: auto;
+}
+.size_video_2 {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.animate_delay_2s {
+}
+.animate_delay_2s {
+}
+.animate_delay-2s {
+}
+.animate__delay-2s {
+}
+.animate_infinite {
+}
+.animate__repeat {
+}
+.img-perfil {
+    width: 24%;
+    height: auto;
+    float: left;
+    padding-right: 27px;
+    text-align: center;
+}
