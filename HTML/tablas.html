@@ -1,0 +1,439 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header   ,body nav, body main, body footer{
+    padding: 50px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body header {
+    background-color: #FF7D62;
+    color: #DBE0FF;
+    height: 150px;
+    text-align: center;
+    font-size: 60px;
+}
+body nav {
+    background-color: #FF8587;
+}
+body footer {
+    background-color: #FFD7D8;
+    text-align: center;
+    color: #860002;
+}
+main section h2 {
+    color: #FFE3E4;
+    padding-bottom: 20px;
+	padding-top: 0px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+main section p {
+    color: #FFD9DA;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li {
+	color:chocolate;
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+	text-align: center;
+    font-size:18px;
+}
+ul li a {
+    text-decoration: none;
+    color:indianred;
+}
+ul li a:hover {
+	text-decoration: none;
+    color: #940002;
+    font-size: 20px;
+}
+body main section {
+    background-color: #FF6669;
+	border-width: 5px;
+    margin: 30px auto;
+    border-color: 5px solid #FF5959;
+    padding: 50px;
+    width: 800px;
+}
+	body main {
+    background-color: #FEAFB1;
+}
+	body footer{
+		text-align: center
+	}
+	#table_0{
+		width: 100%;
+		border-width: 3px;
+		border-style: solid;
+		border-color: crimson;
+		border-collapse: separate;
+	}
+	#table_0 td,#table_0 th{
+		text-align: center;
+		padding: 5px;
+		border: 2px rgba(233,159,87,1.00);
+	}
+	#table_0 tr{
+		color:ghostwhite;
+		background-color:darksalmon;
+	}
+	#tabla_1 tbody td:hover{
+		background-color: orange;
+		color: darkblue;
+	}
+	#tabla_1{
+		border-bottom-width: 3px;
+		padding: 20px;
+		border-collapse: collapse;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: ivory;
+		background-color:crimson; 
+	}
+	#tabla_1 td, #tabla_1{
+		border-color: darkorange;
+	}
+	#tabla_1 td{
+		border-color: lightpink;
+	}
+	#tabla_1 th{
+		background-color: wheat;
+	}
+	#tabla_1 tfoot td:{
+		background-color: beige;
+	}
+	#tabla_2{
+		margin-top: 30px;
+		width: 60%;
+		margin-left: auto;
+		padding: 15px;
+		margin-right: auto;
+	}
+	#tabla_2 tbody tr:hover{
+		background-color: chocolate;
+		color: indianred;
+	}
+	#tabla_2 tfoot td{
+		background-color: darkorange;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	}
+	#tabla_2 tbody td{
+		text-align: left;
+	}
+	#tabla_2 th{
+		background-color: darkred;
+		text-align: left;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		font-style: normal;
+		font-weight: 400;
+	}
+	#tabla_3 thead th{
+		background-color: darkgray;
+		color: aqua;
+	}
+	#tabla_3 tbody tr:nth-child(even){
+		background-color: fuchsia;
+		color: darkolivegreen;
+	}
+	#tabla_3 tfoot td{
+		background-color:yellow;
+		color: darkmagenta;
+	}
+	#tabla_3 tbody tr:nth-child(odd){
+		background-color: gold;
+		color: lime;
+	}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML </h1>
+</header>
+<nav>
+  <ul>
+	<li><a href="../index.html" target="_blank">Inicio</a></li>
+	<li><a href="formatos_texto1 - copia.html"target="_blank"> Texto </a></li>
+    <li><a href="tablas.html" target="_blank"> Tablas </a></li>
+	<li><a href="Imagenes.html" target="_blank"> Imagenes </a></li>
+	<li><a href="Audio.html" target="_blank"> Audio </a></li>
+    <li><a href="videos.html" target="_blank"> Videos</a></li>
+	<li><a href="animacion.html" target="_blank"> Animación</a></li>
+    <li><a href="Flexbox.html" target="_blank"> Flexbox </a></li>
+  </ul>
+</nav>
+<main>
+<section>
+    <h2>Tabla simple</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae animi sint, saepe qui aliquid sit odit iure aspernatur impedit, reprehenderit veniam quos adipisci ipsam cumque autem voluptas sed minima recusandae officiis tenetur debitis! Nesciunt ex nisi molestiae odit, voluptas laborum temporibus iure. Deleniti dolorem a blanditiis doloribus repudiandae autem dignissimos ipsa rem perspiciatis dolorum, aut, incidunt, quidem aliquam, suscipit quis reprehenderit laborum quaerat tempore voluptates totam recusandae itaque sequi reiciendis provident! Totam eveniet, blanditiis nesciunt temporibus explicabo. Fugit ullam, commodi, officiis blanditiis temporibus nobis, placeat quos explicabo perferendis quia harum provident porro optio atque maiores dolore id repudiandae quibusdam. Odi!</p>
+	<table id="table_0">
+		<thead>
+		<tr>
+		<th>Nombre</th>
+		<th style="width: 15%">Apellido Paterno</th>
+		<th>Apellido Materno</th>
+		<th>Edad</th>
+		<th>Cooperacion</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr style="height: 100px">
+		<td>Maria</td>
+		<td>Hernandez</td>
+		<td>Lujan</td>
+		<td>20</td>
+		<td>20</td>
+		</tr>
+		<tr>
+		<td>Mario</td>
+		<td>Rojas</td>
+		<td>Jimenez</td>
+		<td>18</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Georgina</td>
+			<td>Mora</td>
+			<td>Salazar</td>
+			<td>19</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Guadalupe</td>
+			<td>Rojas</td>
+			<td>Mejia</td>
+			<td>22</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Fernando</td>
+			<td>Loprez</td>
+			<td>Garcia</td>
+			<td>20</td>
+			<td>20</td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<!--<td></td>
+				<td></td>
+				<td></td>-->
+				<td colspan="4">Total</td>
+				<td>100</td>
+			</tr>
+		</tfoot>
+	</table>
+</section>
+  <section>
+    <h2>Tabla modificada a partir de un identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsum doloremque impedit, amet fuga nihil, quibusdam mollitia rem eos illum omnis quam. Pariatur ullam quidem quaerat natus rerum consequuntur debitis at sed autem dolor, quia incidunt magni itaque quod molestias ex soluta libero eligendi excepturi quae! Et, similique eveniet hic. Obcaecati unde, eius modi tenetur enim ipsa provident nostrum dolor maxime, vero quod possimus eligendi. Sed accusamus tenetur vitae laborum voluptates, eius, hic rem sequi animi rerum, amet earum explicabo nemo! Optio, itaque, nesciunt. Minus ea eum tempore, earum voluptate. Harum accusantium magnam natus iste, et similique fuga neque qui.</p>
+    <table id="tabla_1">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno </th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maria</td>
+          <td>Hernandez</td>
+          <td>Lujan</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Mario</td>
+          <td>Rojas</td>
+          <td>Jimenez</td>
+          <td>18</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Georgina</td>
+          <td>Mora</td>
+          <td>Salazar</td>
+          <td>19</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Guadalupe</td>
+          <td>Rojas</td>
+          <td>Mejia</td>
+          <td>22</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Fernando</td>
+          <td>Loprez</td>
+          <td>Garcia</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+		<!--<td></td>
+				<td></td>
+				<td></td>-->	
+          <td colspan="4">Total</td>
+          <td>100</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+<section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur vel tempora accusantium in necessitatibus deserunt adipisci ducimus, fugiat enim, culpa atque quod facere eum doloremque amet eos minima possimus modi sequi veritatis voluptates ipsum at quasi. Dolorum eius quasi possimus dolore, accusamus voluptates nobis, inventore provident autem non eveniet cum porro, vitae ipsam quam reiciendis voluptas deleniti, ea consequatur veniam repellendus enim! Repudiandae quia sequi saepe adipisci ratione nemo quasi reiciendis corporis pariatur repellendus, nobis aut impedit officia iure velit quibusdam accusamus, molestias, doloribus veritatis aliquid voluptatibus autem quae ad! Dolore blanditiis accusantium eius, ullam quae vel cumque odio eveniet.</p>
+    <table id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno </th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maria</td>
+          <td>Hernandez</td>
+          <td>Lujan</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Mario</td>
+          <td>Rojas</td>
+          <td>Jimenez</td>
+          <td>18</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Georgina</td>
+          <td>Mora</td>
+          <td>Salazar</td>
+          <td>19</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Guadalupe</td>
+          <td>Rojas</td>
+          <td>Mejia</td>
+          <td>22</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Fernando</td>
+          <td>Loprez</td>
+          <td>Garcia</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+		  <tr>
+          <td>Fernan</td>
+          <td>Lopez</td>
+          <td>Solar</td>
+          <td>23</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <!--<td></td>-->
+          <!--	<td></td>
+				<td></td>
+				<td></td>-->
+          <td colspan="4">Total</td>
+          <td>100</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+<section>
+	<h2>Tablas</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea vero autem eum recusandae, quia quisquam saepe error libero nobis vitae enim suscipit, explicabo labore minus corrupti sapiente et quasi ullam maxime fugiat eveniet pariatur rerum facere ad eius! Nostrum debitis repellendus commodi consectetur itaque, voluptatibus quas autem! Et rerum, quam.</p>
+	<table id="tabla_3"
+		   <thead>
+	  <th>Nombre</th>
+          <th>Apellido Paterno </th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maria</td>
+          <td>Hernandez</td>
+          <td>Lujan</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Mario</td>
+          <td>Rojas</td>
+          <td>Jimenez</td>
+          <td>18</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Georgina</td>
+          <td>Mora</td>
+          <td>Salazar</td>
+          <td>19</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Guadalupe</td>
+          <td>Rojas</td>
+          <td>Mejia</td>
+          <td>22</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Fernando</td>
+          <td>Loprez</td>
+          <td>Garcia</td>
+          <td>20</td>
+          <td>20</td>
+        </tr>
+		  <tr>
+          <td>Fernan</td>
+          <td>Lopez</td>
+          <td>Solar</td>
+          <td>23</td>
+          <td>23</td>
+        </tr>
+	</tbody>
+	<tfoot>
+	
+	<tr>
+		<!--<td></td>
+		<td></td>
+		<td></td>-->
+		<td colspan="4"> Total </td>
+		<td>100</td>
+		</tr>
+	</tfoot>
+	</table>
+	</section>
+</main>
+<footer>
+  <h5>Elaborado por Gloria Solar </h5>
+</footer>	
+</body>
+</html>
